@@ -1,0 +1,60 @@
+en:
+  PLUGIN_WHISTLEBLOWER:
+    ADMIN_MODE: Admin Mode
+    ADMIN_MODE_HELP: Only executes events from the admin side
+    ENDPOINT: NTFY Endpoint
+    ENDPOINT_HELP: The ntfy endpoint to send the messages. Please be sure to use a unique endpoint.
+    ENDPOINT_PLACEHOLDER: my-grav-site-aRTinoWLifY
+    EVENTS: Event Hooks
+    EVENTS_KEY: onUserLogin
+    EVENTS_VALUE: Someone has logged on {domain}!
+    CUSTOM_SERVER: Custom server
+    CUSTOM_SERVER_HELP: NOT REQUIRED. Only use if you have your own server
+    CUSTOM_SERVER_PLACEHOLDER: https://ntfy.mycustomserver.com
+    PASSWORD_HELP: Auth password to custom server
+    PASSWORD_PLACEHOLDER: Authentication to custom server
+    INSTRUCTIONS:
+      "You can use the following variables inside your messages in most events:
+
+      - **{site}**
+
+      - **{domain}**
+
+      - **{username}**
+
+      - **{date}**
+
+      - **{hour}**
+
+
+      Check [Grav Docs](https://learn.getgrav.org/17/plugins/event-hooks) to learn about events."
+es:
+  PLUGIN_WHISTLEBLOWER:
+    ADMIN_MODE: Modo administrador
+    ADMIN_MODE_HELP: Solo ejecuta eventos del lado de administración
+    ENDPOINT: Ruta de NTFY
+    ENDPOINT_HELP: La ruta de nfty a la cual mandar mensajes. Asegúrate de usar una ruta única.
+    ENDPOINT_PLACEHOLDER: mi-sitio-grav-aRTinoWLifY
+    EVENTS: Hooks de eventos
+    EVENTS_KEY: onUserLogin
+    EVENTS_VALUE: ¡Alguien a entrado a {domain}!
+    CUSTOM_SERVER: Servidor propio
+    CUSTOM_SERVER_HELP: NO NECESARIO. Solo usar si tienes tu propio servidor.
+    CUSTOM_SERVER_PLACEHOLDER: https://ntfy.miservidor.com
+    PASSWORD_HELP: Contraseña de autenticación para servidor propio
+    PASSWORD_PLACEHOLDER: Authentication to custom server
+    INSTRUCTIONS:
+      "Puedes usar las siguientes variables dentro de tus mensajes en la mayoria de eventos:
+
+      - **{site}**
+
+      - **{domain}**
+
+      - **{username}**
+
+      - **{date}**
+
+      - **{hour}**
+
+
+      Checa la [documentación de Grav](https://learn.getgrav.org/17/plugins/event-hooks) para aprender más sobre eventos."

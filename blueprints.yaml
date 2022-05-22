@@ -1,0 +1,69 @@
+name: Whistleblower
+slug: whistleblower
+type: plugin
+version: 1.0.0
+description: Get notifications everytime someone tries to login using [ntfy.sh](https://ntfy.sh/)
+icon: assistive-listening-systems
+author:
+  name: Himmlisch Web
+  email: web@himmlisch.com.mx
+homepage: https://github.com/Himmlisch-Studios/grav-plugin-whistleblower
+demo: https://himmlisch.com.mx
+keywords: grav, plugin, etc
+bugs: https://github.com/Himmlisch-Studios/grav-plugin-whistleblower/issues
+docs: https://github.com/Himmlisch-Studios/grav-plugin-whistleblower/blob/master/README.md
+license: MIT
+
+dependencies:
+  - { name: grav, version: ">=1.7.0" }
+
+form:
+  validation: loose
+  fields:
+    enabled:
+      type: toggle
+      label: PLUGIN_ADMIN.PLUGIN_STATUS
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+    admin_mode:
+      type: toggle
+      label: PLUGIN_WHISTLEBLOWER.ADMIN_MODE
+      highlight: 1
+      default: 1
+      help: PLUGIN_WHISTLEBLOWER.ADMIN_MODE_HELP
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+    custom_server:
+      type: url
+      label: PLUGIN_WHISTLEBLOWER.CUSTOM_SERVER
+      help: PLUGIN_WHISTLEBLOWER.CUSTOM_SERVER_HELP
+      placeholder: PLUGIN_WHISTLEBLOWER.CUSTOM_SERVER_PLACEHOLDER
+    custom_password:
+      type: password
+      label: PLUGIN_ADMIN.PASSWORD
+      help: PLUGIN_WHISTLEBLOWER.PASSWORD_HELP
+      placeholder: PLUGIN_WHISTLEBLOWER.PASSWORD_PLACEHOLDER
+    endpoint:
+      type: text
+      label: PLUGIN_WHISTLEBLOWER.ENDPOINT
+      help: PLUGIN_WHISTLEBLOWER.ENDPOINT_HELP
+      placeholder: PLUGIN_WHISTLEBLOWER.ENDPOINT_PLACEHOLDER
+      validate:
+        required: true
+    events:
+      type: array
+      placeholder_key: PLUGIN_WHISTLEBLOWER.EVENTS_KEY
+      placeholder_value: PLUGIN_WHISTLEBLOWER.EVENTS_VALUE
+      label: PLUGIN_WHISTLEBLOWER.EVENTS
+    _instructions:
+      type: display
+      markdown: true
+      content: PLUGIN_WHISTLEBLOWER.INSTRUCTIONS

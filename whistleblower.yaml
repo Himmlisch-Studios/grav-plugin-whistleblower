@@ -1,0 +1,6 @@
+enabled: true
+admin_mode: true
+endpoint: ""
+events:
+  onUserLogin: "Someone has logged on {domain}!"
+  onUserLoginFailure: "Failed login attempt at {hour}"
