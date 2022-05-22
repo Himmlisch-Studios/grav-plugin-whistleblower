@@ -1,5 +1,7 @@
 enabled: true
 admin_mode: true
+# custom_server:
+# custom_password:
 endpoint: ""
 events:
   onUserLogin: "Someone has logged on {domain}!"

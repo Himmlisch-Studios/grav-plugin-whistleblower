@@ -37,10 +37,12 @@ Here is the default configuration and an explanation of available options:
 ```yaml
 enabled: true
 admin_mode: true
+# custom_server:
+# custom_password:
 endpoint: ""
 events:
-    onUserLogin: "User '{username}' has logged on {domain}!"
-    onUserLoginFailure: "Someone tried to log on {domain}!"
+    onUserLogin: "Someone has logged on {domain}!"
+    onUserLoginFailure: "Failed login attempt at {hour}"
 ```
 
 Note that if you use the Admin Plugin, a file with your configuration named whistleblower.yaml will be saved in the `user/config/plugins/`-folder once the configuration is saved in the Admin.
