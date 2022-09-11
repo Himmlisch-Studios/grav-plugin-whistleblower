@@ -90,7 +90,7 @@ class WhistleblowerPlugin extends Plugin
         }
     }
 
-    public function executeEvent(mixed $_, String $key): void
+    public function executeEvent($_, String $key): void
     {
         call_user_func($this->events[$key]);
     }
