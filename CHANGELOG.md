@@ -1,3 +1,17 @@
+# v1.0.3
+
+## 09/11/2022
+
+1. [](#bugfix)
+    - Removed `mixed` type, for `PHP 7.4` compatibility.
+
+# v1.0.2
+
+## 09/11/2022
+
+1. [](#bugfix)
+    - Added vendor files.
+
 # v1.0.1
 
 ## 09/11/2022
