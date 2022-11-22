@@ -8,10 +8,9 @@ author:
   name: Himmlisch Web
   email: web@himmlisch.com.mx
 homepage: https://github.com/Himmlisch-Studios/grav-plugin-whistleblower
-demo: https://himmlisch.com.mx
 keywords: grav, plugin, etc
-bugs: https://github.com/Himmlisch-Studios/grav-plugin-whistleblower/issues
-docs: https://github.com/Himmlisch-Studios/grav-plugin-whistleblower/blob/master/README.md
+bugs: https://himmlisch.com.mx/contact
+docs: https://docs.himmlisch.com.mx/whistleblower
 license: MIT
 
 dependencies:
